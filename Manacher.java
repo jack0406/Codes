@@ -4,7 +4,6 @@
  */
 import java.util.*;
 import java.io.*;
-import java.math.*;
 public class Manacher {
     private int[]  p;  // p[i] = length of longest palindromic substring of t, centered at i
     private String s;  // original string
